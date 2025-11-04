@@ -1,0 +1,33 @@
+# --- Python/Django ---
+__pycache__/
+*.py[cod]
+*.log
+*.sqlite3
+db.sqlite3
+.env
+.env.*
+*.env
+
+# venv (루트와 서버 내부 둘 다)
+.venv/
+PhotoBlogServer/.venv/
+
+# Django static/media output
+PhotoBlogServer/static/
+PhotoBlogServer/media/
+staticfiles/
+
+# --- Android/Gradle ---
+PhotoViewer/.gradle/
+PhotoViewer/.idea/
+PhotoViewer/local.properties
+PhotoViewer/.cxx/
+PhotoViewer/.externalNativeBuild/
+PhotoViewer/**/build/
+*.iml
+
+# --- OS/IDE ---
+.DS_Store
+.idea/
+.vscode/
+Thumbs.db
